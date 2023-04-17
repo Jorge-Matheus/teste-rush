@@ -1,0 +1,120 @@
+@charset "UTF-8"; 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1em;
+    min-height: 5%;
+    max-height: 100%;
+}
+
+
+body {
+    background-image: url(../nova-rush.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#menu-h {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #000000;
+    text-align: center;
+    margin-right: 262px;
+    position: relative;
+}
+
+
+#menu-h li {
+    display: inline;
+}
+
+
+#menu-h li a {
+    color: rgba(255, 255, 255, 0.699);
+    padding: 21px;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.9s;
+}
+
+
+#menu-h li a:hover {
+    color: red;
+}
+
+#menu-h li a:active {
+    border-bottom: 1px solid red;
+}
+
+
+img {
+    display: inline;
+}
+
+nav > ul > a > #rushlogo {
+    float: left;
+    align-items: center;
+    place-items: inherit;
+    padding-left: 120px;
+    margin-top: 8px;
+}
+
+
+.musicas > h1 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+
+.musicas {
+    padding: 10px;
+    color: black;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+iframe {
+    box-shadow: 1px 10px 10px 2px black;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+
+.musicas > aside {
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 20px;
+
+}
+
+.musicas > section > #titulo-musicas {
+    display: contents;
+    text-align: right;
+    padding-right: 220px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 600px;
+    float: left;
+    margin-left: 550px;
+    margin-right: 10px 0;
+}
+
+
+
