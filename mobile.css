@@ -31,51 +31,25 @@
 
     }
 
-
-    #container {
-        display: block;
-        position: relative;
-        top: 50vh;
-        color: rgba(255, 255, 255, 0.651);
-        width: 20vh;
-        left: 30px;
-        text-align: justify;
-    }
-
-
-    #rushimg {
-        display: block;
-        text-align: center;
-        position: relative;
-        top: 80vw;
-        right: 11px;
-    }
-
-
-
-    #conteudo {
-        position: relative;
-        top: 90vw;
-        text-align: justify;
-        width: 92.5vw;
-        padding: 10px;
-        text-align: center;
-        color: rgba(255, 255, 255, 0.644);
-        
-    }
-
-
     h3 {
         color: red;
     }
 
-
-    #sideleft {
-        color: rgba(255, 255, 255, 0.692);
+    div {
+        display: inline-table;
         position: relative;
-        top: 132px;
-        left: 260px;
+        top: 50vh;
+        color: rgba(255, 255, 255, 0.651);
+        width: 50vh;
+        left: 30px;
+        text-align: justify;
+        }
 
+
+    img {
+        position: relative;
+        top: 430px;
+        left: 160px;
     }
 
 }
