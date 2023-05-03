@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-image: url(rush-maio/LEGANERD_028171.jpg);
+        background-color: black;
+        background-size: contain;
+    }
+
+
+    #rodape {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.692);
+        position: relative;
+        top: 85vh;
+        left: 30px;
+
+    }
+
+
+    #container {
+        display: block;
+        position: relative;
+        top: 50vh;
+        color: rgba(255, 255, 255, 0.651);
+        width: 20vh;
+        left: 30px;
+        text-align: justify;
+    }
+
+
+    #rushimg {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 80vw;
+        right: 11px;
+    }
+
+
+
+    #conteudo {
+        position: relative;
+        top: 90vw;
+        text-align: justify;
+        width: 92.5vw;
+        padding: 10px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.644);
+        
+    }
+
+
+    h3 {
+        color: red;
+    }
+
+
+    #sideleft {
+        color: rgba(255, 255, 255, 0.692);
+        position: relative;
+        top: 132px;
+        left: 260px;
+
+    }
+
+}
