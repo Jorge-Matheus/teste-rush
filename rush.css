@@ -96,26 +96,38 @@ body {
 
 .container {
     max-height: 300px;
-    max-width: 300px;
+    max-width: 620px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     justify-content: space-evenly;
     position: relative;
     top: 450px;
-    left: 80px;
+    right: 35px;
 
 
 }
 
 
 .filho {
-    padding: 10px;
     height: 30vh;
     width: 30vw;
     color: white;
-    border: 1px solid red;
-    margin-left: 20px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+
+h2 {
+    color: red;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 
