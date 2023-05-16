@@ -73,20 +73,29 @@ body {
 }
 
 
-@media screen and (max-height: 450px) {
+.container {
+    height: 200px;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.filho {
+    height: 100px;
+    width: 200px;
+    color: white;
+    border: 1px solid red;
+}
+
+
+
+@media screen and (max-height: 768px) {
     .menuoculto{padding-top: 150px;}
     .menuoculto a{font-size: 18;}
 } 
-
-    
-
-
-
-span {
-    color: rgba(255, 255, 255, 0.747);
-
-}
-
 
 /* #menu-h li {
     display: inline;
