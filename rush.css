@@ -17,6 +17,13 @@
 */
 
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: black;
     background-image: url(rush-salvou.jpg);
@@ -25,6 +32,7 @@ body {
     background-size: cover;
       
 }
+
 
 
 
@@ -51,48 +59,68 @@ body {
     color: #888;
     display: block;
     transition: 0.3s;
-}
-
-
-.menuoculto a:hover {
     color: red;
 }
 
 
-.btncfechar {
+.menuoculto a:hover {
+    color: rgba(255, 0, 0, 0.521);
+}
+
+
+.btnfechar {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    color: red;
+}
+
+.btncfechar:hover {
+    color: rgba(255, 0, 0, 0.521);
 }
 
 #principal {
     padding: 16px;
     transition: margin-left 0.3;
+    color: red;
 }
 
 
+#principal:hover {
+    color: rgba(255, 0, 0, 0.521);
+}
+
+
+
 .container {
-    height: 200px;
-    width: 95vw;
+    max-height: 300px;
+    max-width: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    
+    justify-content: space-evenly;
+    position: relative;
+    top: 450px;
+    left: 80px;
+
+
 }
 
 
 .filho {
-    height: 100px;
-    width: 200px;
+    padding: 10px;
+    height: 30vh;
+    width: 30vw;
     color: white;
     border: 1px solid red;
+    margin-left: 20px;
 }
 
 
 
-@media screen and (max-height: 768px) {
+/* @media screen and (max-height: 768px) {
     .menuoculto{padding-top: 150px;}
     .menuoculto a{font-size: 18;}
 } 
