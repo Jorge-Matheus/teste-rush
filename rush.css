@@ -30,6 +30,8 @@ body {
     background-repeat: no-repeat;
     background-size: 99vw 100vh;
     background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
       
 }
 
@@ -104,6 +106,8 @@ body {
     position: relative;
     top: 300px;
     right: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
